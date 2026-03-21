@@ -353,7 +353,7 @@ function clearAll() {
 
 window.onload = function () {
     const today = new Date();
-    document.getElementById("startDate").value = today.toISOString().split('T')[0];
+    document.getElementById("startDate").value = "2026-03-20";  //* today.toISOString().split('T')[0]; *//
     document.getElementById("days").value = 7;
     generate();
 };
